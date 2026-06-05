@@ -1,5 +1,9 @@
 # PowerPlatformAsyncDeploy
 
+[![CI](https://github.com/smitstech/PowerPlatformAsyncDeploy/actions/workflows/ci.yml/badge.svg)](https://github.com/smitstech/PowerPlatformAsyncDeploy/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PowerShell 7+](https://img.shields.io/badge/PowerShell-7%2B-5391FE.svg)](https://github.com/PowerShell/PowerShell)
+
 A small PowerShell module for deploying Power Platform packages **asynchronously**. It submits the
 work to your Dataverse environment and returns straight away — so your terminal, pipeline agent, or
 runbook is never tied up waiting for a long import to finish. You check progress whenever you like.
