@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # Keep the GitHub Actions used in our workflows up to date.
+  # (PowerShell / PSGallery is not a Dependabot-supported ecosystem, so this is the
+  #  applicable one for this repo.)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "ci"
+    open-pull-requests-limit: 5
