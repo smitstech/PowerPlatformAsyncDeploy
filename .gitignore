@@ -1,0 +1,19 @@
+# Deployment state files contain a connection string (with a client secret) and operation ids.
+# Never commit them.
+*deployment-state.json
+pp-async-deployment-state.json
+
+# Packages and solution artifacts
+*.zip
+PackageAssets/
+
+# Local secrets / settings
+*.secret
+*.local.ps1
+.env
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
